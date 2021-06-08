@@ -17,7 +17,7 @@ private:
 
 public:
 
-    //constructoe
+    //constructor
     Address(const std::string &country, const std::string &city, const std::string &street);
 
     //getter and setter
