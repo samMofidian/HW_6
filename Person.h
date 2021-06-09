@@ -18,7 +18,7 @@ private:
     Address address;
 
     //validate (utility function)
-    bool validate(const std::string &id, const std::string &pattern0, const std::string &pattern1);
+    virtual bool validate(const std::string &id);
 
 public:
 

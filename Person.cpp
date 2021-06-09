@@ -11,15 +11,15 @@ using namespace std;
 
 Person::Person(const string &name, const string &id, const Address &address) : address(address) {
 
-    if (!validate(id, "[8]{1}[4-9]{1}[\\D]{1,3}[0-37-9]{5}", "[9]{1}[0-9]{1}[\\D]{1,3}[0-37-9]{5}"))
+    if (!validate(id))
     {
         cout << "invalid id";
         exit(1);
     }
     else
     {
-        this->name = name;
-        this->id = id;
+       this->name = name;
+       this->id = id;
     }
 
 }
@@ -48,7 +48,7 @@ const string &Person::getId() const {
 
 void Person::setId(const string &id) {
 
-    if (!validate(id, "[8]{1}[4-9]{1}[\\D]{1,3}[0-37-9]{5}", "[9]{1}[0-9]{1}[\\D]{1,3}[0-37-9]{5}"))
+    if (!validate(id))
     {
         cout << "invalid id";
         exit(1);
@@ -100,8 +100,10 @@ istream& operator >>(istream& i, Person& p) {
     return i;
 }
 
-bool Person::validate(const string &id, const string &pattern0, const string &pattern1) {
+bool Person::validate(const string &id) {
 
+    const string &pattern0 = "[8]{1}[4-9]{1}[\\D]{1,3}[0-37-9]{5}";
+    const string &pattern1 = "[9]{1}[0-9]{1}[\\D]{1,3}[0-37-9]{5}";
     regex regPattern0(pattern0);
     regex regPattern1(pattern1);
     bool flag = false;
