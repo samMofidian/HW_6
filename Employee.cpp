@@ -66,34 +66,42 @@ std::istream &operator>>(istream &i, Employee &e) {
 }
 
 int Employee::getHourWork() const {
+
     return hourWork;
 }
 
 void Employee::setHourWork(int hourWork) {
+
     Employee::hourWork = hourWork;
 }
 
 int Employee::getSalaryPerHour() const {
+
     return salaryPerHour;
 }
 
 void Employee::setSalaryPerHour(int salaryPerHour) {
+
     Employee::salaryPerHour = salaryPerHour;
 }
 
 int Employee::getWorkToDo() const {
+
     return workToDo;
 }
 
 void Employee::setWorkToDo(int workToDo) {
+
     Employee::workToDo = workToDo;
 }
 
 int Employee::getWorkDone() const {
+
     return workDone;
 }
 
 void Employee::setWorkDone(int workDone) {
+
     Employee::workDone = workDone;
 }
 
@@ -127,16 +135,16 @@ Employee &Employee::operator=(const Employee &e) {
     return *this;
 }
 
-int Employee::calculateSalary() {
+double Employee::calculateSalary() {
 
-    int pay = hourWork*salaryPerHour;
-    int cal = (workDone / workToDo);
-    int res = pay*cal;
+    double pay = hourWork*salaryPerHour;
+    double cal = (double) (workDone / workToDo);
+    double res = pay*cal;
     return res;
 }
 
-int Employee::efficiency() {
+double Employee::efficiency() {
 
-    int res = ((workDone / workToDo) / hourWork) * 100;
+    double res = ((workDone / workToDo) / hourWork) * 100;
     return res;
 }

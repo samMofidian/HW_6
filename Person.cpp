@@ -115,6 +115,8 @@ bool Person::validate(const string &id) {
     {
         flag = regex_match(id, regPattern1);
     }
+    if (flag == 1)
+        flag = true;
     return flag;
 }
 

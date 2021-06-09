@@ -55,9 +55,9 @@ public:
     Employee& operator =(const Employee& e);
 
     //functions
-    int calculateSalary();
+    double calculateSalary();
 
-    int efficiency();
+    double efficiency();
 
 };
 
