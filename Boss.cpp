@@ -86,7 +86,7 @@ std::istream &operator>>(istream &i, Boss &b) {
 double Boss::calculateSalary() {
 
     double pay = getHourWork()*getSalaryPerHour();
-    double cal = (double) (getWorkDone() / getWorkToDo());
+    double cal = (double) ((double)getWorkDone() / (double)getWorkToDo());
     double res = (double) pay*cal*(115/100);
     return res;
 }

@@ -11,16 +11,16 @@ using namespace std;
 
 Person::Person(const string &name, const string &id, const Address &address) : address(address) {
 
-    if (!validate(id))
-    {
-        cout << "invalid id";
-        exit(1);
-    }
-    else
-    {
+//    if (!validate(id))
+//    {
+//        cout << "invalid id";
+//        exit(1);
+//    }
+//    else
+//    {
        this->name = name;
        this->id = id;
-    }
+//    }
 
 }
 
@@ -48,15 +48,15 @@ const string &Person::getId() const {
 
 void Person::setId(const string &id) {
 
-    if (!validate(id))
-    {
-        cout << "invalid id";
-        exit(1);
-    }
-    else
-    {
+//    if (!validate(id))
+//    {
+//        cout << "invalid id";
+//        exit(1);
+//    }
+//    else
+//    {
         Person::id = id;
-    }
+//    }
 
 }
 

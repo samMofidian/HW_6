@@ -17,7 +17,38 @@ private:
 
 public:
 
+    //constructor
+    Company(int budget, Boss boss, Employee employee);
 
+    //copy constructor
+    Company(const Company &company);
+
+    //destructor
+    virtual ~Company();
+
+    //getters and setters
+    int getBudget() const;
+
+    void setBudget(int budget);
+
+    Boss getBoss() const;
+
+    void setBoss(Boss boss);
+
+    Employee **getEmployee() const;
+
+    void setEmployee(Employee *employee);
+
+    //functions
+    Employee maxEfficiency(int NOB); //NOB -> Number Of Bosses
+
+    double averageEfficiency(int NOB);
+
+    void payForService(int NOB);
+
+    void gift(int NOB);
+
+    bool isEnoughBudget(int NOB);
 
 };
 
