@@ -59,6 +59,9 @@ public:
 
     double efficiency();
 
+    //binary bool operator
+    friend bool operator ==(const Employee& e1, const Employee& e2);
+
 };
 
 

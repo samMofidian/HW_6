@@ -21,6 +21,8 @@ public:
     //constructor
     Company(int budget, Boss boss, Employee e[]);
 
+    Company(Employee e);
+
     //copy constructor
     Company(const Company &company);
 

@@ -148,3 +148,11 @@ double Employee::efficiency() {
     double res = (double) ((double)(this->getWorkDone() / (double) this->getWorkToDo()) / this->getHourWork()) * 100;
     return res;
 }
+
+bool operator==(const Employee &e1, const Employee &e2) {
+
+    if (e1.getId() == e2.getId())
+        return true;
+    else
+        return false;
+}
