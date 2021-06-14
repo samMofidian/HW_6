@@ -5,6 +5,7 @@
 #ifndef MAIN_CPP_COMPANY_H
 #define MAIN_CPP_COMPANY_H
 
+#include <ostream>
 #include "Boss.h"
 
 class Company {
@@ -18,7 +19,7 @@ private:
 public:
 
     //constructor
-    Company(int budget, Boss boss, Employee employee);
+    Company(int budget, Boss boss, Employee e[]);
 
     //copy constructor
     Company(const Company &company);
@@ -40,15 +41,22 @@ public:
     void setEmployee(Employee *employee);
 
     //functions
-    Employee maxEfficiency(int NOB); //NOB -> Number Of Bosses
+    Employee maxEfficiency();
 
-    double averageEfficiency(int NOB);
+    double averageEfficiency();
 
-    void payForService(int NOB);
+    void payForService();
 
-    void gift(int NOB);
+    void gift();
 
-    bool isEnoughBudget(int NOB);
+    bool isEnoughBudget();
+
+    void changeBoss();
+
+    //io stream
+    friend std::ostream &operator<<(std::ostream &os, const Company &company);
+
+    friend std::istream& operator>>(std::istream &is, Company &company);
 
 };
 
