@@ -11,16 +11,16 @@ using namespace std;
 
 Person::Person(const string &name, const string &id, const Address &address) : address(address) {
 
-//    if (!validate(id))
-//    {
-//        cout << "invalid id";
-//        exit(1);
-//    }
-//    else
-//    {
+    if (!validate(id))
+    {
+        cout << "invalid id";
+        exit(1);
+    }
+    else
+    {
        this->name = name;
        this->id = id;
-//    }
+    }
 
 }
 
@@ -48,15 +48,15 @@ const string &Person::getId() const {
 
 void Person::setId(const string &id) {
 
-//    if (!validate(id))
-//    {
-//        cout << "invalid id";
-//        exit(1);
-//    }
-//    else
-//    {
+    if (!validate(id))
+    {
+        cout << "invalid id";
+        exit(1);
+    }
+    else
+    {
         Person::id = id;
-//    }
+    }
 
 }
 
@@ -107,11 +107,11 @@ bool Person::validate(const string &id) {
     regex regPattern0(pattern0);
     regex regPattern1(pattern1);
     bool flag = false;
-    if (id[0] == 8)
+    if (strcmp(reinterpret_cast<const char *>(id[0]), "8") == 0)
     {
         flag = regex_match(id, regPattern0);
     }
-    else if (id[0] == 9)
+    else if (strcmp(reinterpret_cast<const char *>(id[0]), "8") == 0)
     {
         flag = regex_match(id, regPattern1);
     }

@@ -12,11 +12,11 @@ using namespace std;
 Employee::Employee(const string &name, const string &id, const Address &address, int hourWork, int salaryPerHour,int workToDo, int workDone) :
     Person(name, id, address), hourWork(hourWork),salaryPerHour(salaryPerHour), workToDo(workToDo), workDone(workDone) {
 
-//    if (!validate(id))
-//    {
-//        cout << "invalid id";
-//        exit(1);
-//    }
+    if (!validate(id))
+    {
+        cout << "invalid id";
+        exit(1);
+    }
 }
 
 Employee::Employee(const Person &person, Address address, const Employee &employee) : Person(person, address) {
@@ -112,11 +112,11 @@ bool Employee::validate(const string &id) {
     regex regPattern0(pattern0);
     regex regPattern1(pattern1);
     bool flag = false;
-    if (id[0] == 8)
+    if (strcmp(reinterpret_cast<const char *>(id[0]), "8") == 0)
     {
         flag = regex_match(id, regPattern0);
     }
-    else if (id[0] == 9)
+    else if (strcmp(reinterpret_cast<const char *>(id[0]), "9") == 0)
     {
         flag = regex_match(id, regPattern1);
     }
