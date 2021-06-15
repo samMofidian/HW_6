@@ -72,11 +72,17 @@ Employee Company::maxEfficiency() {
             maxElement = employee[j]->efficiency();
         }
     }
-    for (int j = 0; j < boss->getNumberOfEmployee(); j++) {
-        if (employee[j]->efficiency() == maxElement) {
-            return *employee[j];
-        }
+    int i = 0;
+    while (employee[i]->efficiency() != maxElement)
+    {
+        i++;
     }
+//    for (int i; i < boss->getNumberOfEmployee(); i++) {
+//        if (employee[i]->efficiency() == maxElement) {
+//            break;
+//        }
+//    }
+    return *employee[i];
 }
 
 double Company::averageEfficiency() {
@@ -123,13 +129,13 @@ bool Company::isEnoughBudget() {
         return false;
 }
 
-void Company::changeBoss() {
-
-    if(boss->efficiency() < 40)
-    {
-        *boss = maxEfficiency();
-    }
-}
+//void Company::changeBoss() {
+//
+//    if(boss->efficiency() < 40)
+//    {
+//        *boss = maxEfficiency();
+//    }
+//}
 
 ostream &operator<<(ostream &os, const Company &company) {
     os << "budget: " << company.budget << " boss: " << company.boss << endl;
