@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/HW6.dir

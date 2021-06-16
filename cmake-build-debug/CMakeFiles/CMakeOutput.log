@@ -1,0 +1,55 @@
+The system is: CYGWIN - 3.2.0(0.340/5/3) - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_c304d/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_c304d.dir/build.make CMakeFiles/cmTC_c304d.dir/build
+gmake[1]: Entering directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c304d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c304d.dir/testCCompiler.c.o   -c /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c304d.exe
+/cygdrive/c/Users/Ali/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c304d.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_c304d.dir/testCCompiler.c.o  -o cmTC_c304d.exe -Wl,--out-implib,libcmTC_c304d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+gmake[1]: Leaving directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_6c754/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_6c754.dir/build.make CMakeFiles/cmTC_6c754.dir/build
+gmake[1]: Entering directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c754.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_6c754.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6c754.exe
+/cygdrive/c/Users/Ali/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_6c754.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_6c754.dir/testCXXCompiler.cxx.o  -o cmTC_6c754.exe -Wl,--out-implib,libcmTC_6c754.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+gmake[1]: Leaving directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,0 +1,26 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_aca8d/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_aca8d.dir/build.make CMakeFiles/cmTC_aca8d.dir/build
+gmake[1]: Entering directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target '/cygdrive/c/Users/Ali/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/share/cmake-3.17.5/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_aca8d.dir/CMakeCCompilerABI.c.o'.  Stop.
+gmake[1]: Leaving directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+makefile:141: recipe for target 'cmTC_aca8d/fast' failed
+gmake: *** [cmTC_aca8d/fast] Error 2
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_e996c/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_e996c.dir/build.make CMakeFiles/cmTC_e996c.dir/build
+gmake[1]: Entering directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target '/cygdrive/c/Users/Ali/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/share/cmake-3.17.5/Modules/CMakeCXXCompilerABI.cpp', needed by 'CMakeFiles/cmTC_e996c.dir/CMakeCXXCompilerABI.cpp.o'.  Stop.
+gmake[1]: Leaving directory 'C:/Users/Ali/Desktop/HW6/cmake-build-debug/CMakeFiles/CMakeTmp'
+makefile:141: recipe for target 'cmTC_e996c/fast' failed
+gmake: *** [cmTC_e996c/fast] Error 2
+
+
+
+

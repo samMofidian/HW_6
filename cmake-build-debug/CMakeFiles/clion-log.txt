@@ -1,0 +1,4 @@
+C:\Users\Ali\AppData\Local\JetBrains\CLion2020.3\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Ali/Desktop/HW6
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug

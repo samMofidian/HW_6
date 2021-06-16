@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HW6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW6">
+				<Option output="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/HW6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW6"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW6/fast">
+				<Option output="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/HW6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW6/fast"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j4 -f &quot;/cygdrive/c/Users/Ali/Desktop/HW6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Address.cpp">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Address.h">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Boss.cpp">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Boss.h">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Company.cpp">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Company.h">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Employee.cpp">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Employee.h">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Person.cpp">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/Person.h">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/main.cpp">
+			<Option target="HW6"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/HW6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
