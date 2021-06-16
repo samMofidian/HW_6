@@ -11,17 +11,13 @@ using namespace std;
 
 Person::Person(const string &name, const string &id, const Address &address) : address(address) {
 
-    if (!validate(id))
-    {
-        cout << "invalid id";
-        exit(1);
-    }
-    else
-    {
+//    if (!validate(id))
+//    {
+//        cout << "invalid id";
+//        exit(1);
+//    }
        this->name = name;
        this->id = id;
-    }
-
 }
 
 

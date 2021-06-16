@@ -12,11 +12,11 @@ using namespace std;
 Employee::Employee(const string &name, const string &id, const Address &address, int hourWork, int salaryPerHour,int workToDo, int workDone) :
     Person(name, id, address), hourWork(hourWork),salaryPerHour(salaryPerHour), workToDo(workToDo), workDone(workDone) {
 
-    if (!validate(id))
-    {
-        cout << "invalid id";
-        exit(1);
-    }
+//    if (!validate(id))
+//    {
+//        cout << "invalid id";
+//        exit(1);
+//    }
 }
 
 Employee::Employee(const Person &person, Address address, const Employee &employee) : Person(person, address) {

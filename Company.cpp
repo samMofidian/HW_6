@@ -77,11 +77,6 @@ Employee Company::maxEfficiency() {
     {
         i++;
     }
-//    for (int i; i < boss->getNumberOfEmployee(); i++) {
-//        if (employee[i]->efficiency() == maxElement) {
-//            break;
-//        }
-//    }
     return *employee[i];
 }
 
@@ -96,37 +91,46 @@ double Company::averageEfficiency() {
 
 void Company::payForService() {
 
-    for (int j = 0; j < boss->getNumberOfEmployee(); j++) {
-        if (employee[j]->getAddress().getCity() != "tehran") {
-            employee[j]->setHourWork(7 + employee[j]->getHourWork());
+    int i = 0;
+    while(i < boss->getNumberOfEmployee())
+    {
+        if (employee[i]->getAddress().getCity().compare("tehran") != 0){
+            employee[i]->setHourWork((7 + employee[i]->getHourWork()));
         }
+        i++;
     }
+
+//    for (int j = 0; j < boss->getNumberOfEmployee(); j++) {
+//        if (employee[j]->getAddress().getCity().compare("tehran") != 0) {
+//            employee[j]->setHourWork(7 + employee[j]->getHourWork());
+//        }
+//    }
 }
 
 
 void Company::gift() {
 
-    for (int j = 0; j < boss->getNumberOfEmployee(); j++) {
-        if (employee[j]->getId()[0] == 8) {
-            employee[j]->setHourWork(5 + employee[j]->getHourWork());
-            if ((*employee[j]) == maxEfficiency()){
-                employee[j]->setHourWork(5 + employee[j]->getHourWork());
-            }
+    int i = 0;
+    while(i < boss->getNumberOfEmployee())
+    {
+        if (employee[i]->getId()[0] == '8'){
+            employee[i]->setHourWork((5 + employee[i]->getHourWork()));
         }
+        i++;
     }
 }
 
 
 bool Company::isEnoughBudget() {
 
+    bool flag = false;
     int sum = 0;
     for (int j = 0; j < boss->getNumberOfEmployee(); j++) {
         sum += employee[j]->calculateSalary();
     }
-    if(sum == budget)
-        return true;
-    else
-        return false;
+    if(sum <= budget)
+        flag = true;
+    return flag;
 }
 
 //void Company::changeBoss() {
